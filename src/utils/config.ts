@@ -29,19 +29,19 @@ class MiConfig {
 	public title = '涂鸦白板';
 
 	/** 所有权 */
-	public powered = '麦可易特网';
+	public powered = '临帖宝';
 
 	/** 加密盐值 */
 	public salt = this.prefix + 'bXrf4dJbLlf0u8X3';
 
 	/** 关键词 */
-	public keywords = 'vue, typescript, view-design, makeit, 麦可易特网';
+	public keywords = 'vue, typescript, view-design, makeit';
 
 	/** 描述 */
-	public description = '麦可易特网涂鸦白板 (Powered by makeit.vip)';
+	public description = '涂鸦白板';
 
 	/** 是否为移动端 */
-	public mobile = false;
+	public mobile = true;
 
 	/** 是否为触摸屏 */
 	public supportsTouch = ('ontouchstart' in window) || navigator.msMaxTouchPoints;
